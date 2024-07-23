@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   
+     <link rel="stylesheet" href="portfolio.css">
+     <script href="portfolio.js"></script>
+</head>
+
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Anshika Sharma</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Header -->
+    <header id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Welcome to my Portfolio Website</h1>
+                    <p>I'm Anshika Sharma, an MCA fresher with a passion for web development.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://img.freepik.com/premium-vector/woman-with-red-shirt-that-says-name-it_169196-12938.jpg" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a fresh BCA graduated and pusuing MCA with a strong foundation in computer science and a passion for web development. I have skills in HTML, CSS, JavaScript. I also have a keen knowledge in back-end like node.js and also knows about programming languages like C++,Python,OOPs. I also work on visualization tools like Microsoft Power BI and also with the help of Python Libraries.I know little bit about SQL Database.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+<section id="skills">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="row">
+            <!-- Front-End Skills -->
+            <div class="col-md-4">
+                <h3>Front-End</h3>
+                <div class="skill">
+                    <div class="skill-name">HTML <i class="fab fa-html5"></i></div>
+                    <div class="progress">
+                        <div class="progress-bar html" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">CSS <i class="fab fa-css3-alt"></i></div>
+                    <div class="progress">
+                        <div class="progress-bar css" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">JavaScript <i class="fab fa-js-square"></i></div>
+                    <div class="progress">
+                        <div class="progress-bar js" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Python <i class="fab fa-python"></i></div>
+                    <div class="progress">
+                        <div class="progress-bar python" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Back-End Skills -->
+            <div class="col-md-4">
+                <h3>Back-End</h3>
+                <div class="skill">
+                    <div class="skill-name">Node.js <i class="fab fa-node-js"></i></div>
+                    <div class="progress">
+                        <div class="progress-bar node" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="col-md-4">
+                <h3>Tools</h3>
+                <div class="skill">
+                    <div class="skill-name">Git <i class="fab fa-git-alt"></i></div>
+                    <div class="progress">
+                        <div class="progress-bar git" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">VS Code <i class="fas fa-code"></i></div>
+                    <div class="progress">
+                        <div class="progress-bar vscode" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Microsoft Power BI <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20px" height="20px"><path d="M2 10v10c0 .55228.44772 1 1 1s1-.44772 1-1v-8h2v9c0 .55228.44772 1 1 1s1-.44772 1-1v-11h2v12c0 .55228.44772 1 1 1s1-.44772 1-1v-7h2v8c0 .55228.44772 1 1 1s1-.44772 1-1v-6h2v7c0 .55228.44772 1 1 1s1-.44772 1-1v-9c0-.55228-.44772-1-1-1h-18c-.55228 0-1 .44772-1 1z"/></svg></div>
+                    <div class="progress">
+                        <div class="progress-bar microsoft-powerbi" role="progressbar" style="width: 89%;" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100">89%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Project Section -->
+<section id="project">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="https://github.com/anshikasharma12003/CodSoft/tree/main/Level%201/Task%201" target="_blank">
+                    <div class="project-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq5GecatluamovkfLNjd3dV37GY0niw4FEPw&s" alt="Project 1">
+                        <div class="project-content">
+                            <h3>Project 1</h3>
+                            <p>A responsive landing page built using HTML, CSS, and JavaScript.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://github.com/anshikasharma12003/CodSoft/tree/main/Level%201/Task%202" target="_blank">
+                    <div class="project-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTll1dQA4uZ9AuCCSXkx9VoN8J2GmXZ5YXyQ&s" alt="Project 2">
+                        <div class="project-content">
+                            <h3>Project 2</h3>
+                            <p>A portfolio built using Bootstrap and JavaScript.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://github.com/anshikasharma12003/CodSoft/tree/main/Level%201/Task%203" target="_blank">
+                    <div class="project-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1YSs0IG7s_HwW4hrUQS6CtAJKmRK1zeeVLA&s" alt="Project 3">
+                        <div class="project-content">
+                            <h3>Project 3</h3>
+                            <p>A calculator using HTML, CSS, and JavaScript.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Get in touch with me through email or social media.</p>
+            <ul>
+                <li><a href="mailto:anshikasharma12003@gmail.com" target="_blank">anshikasharma12003@gmail.com <i class="fas fa-envelope"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/anshika-sharma-0a5233247" target="_blank">LinkedIn <i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/anshikasharma12003" target="_blank">GitHub <i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
